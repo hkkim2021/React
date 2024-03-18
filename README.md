@@ -25,5 +25,4 @@
    <h4>{post}</h4>
 
 3. style 넣을땐  ⇒ style = { { 스타일명: ‘값’ } }
-
    <h4 style = { { color: 'red'} }></h4>
