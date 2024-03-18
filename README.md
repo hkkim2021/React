@@ -1,6 +1,6 @@
 # React
 
-##React 설치하는 법
+## React 설치하는 법
 node.js 설치
 터미널에서 npx create-react-app 프로젝트제목 입력 (안돼면 앞에 sudo붙여서)
 프로젝트가 생성됨
