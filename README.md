@@ -11,3 +11,9 @@
 3. src폴더 : 여기가 소스코드 보관함. 이 중 App.js가 메인 페이지이다.
 → html을 실제 .html파일이 아닌 App.js에 작성한다. 그렇게 할 수 있는 이유는 JSX(.js파일에서 쓰는 html대용품)때문이다.
 4. package.json: 프로젝트 정보 기입해 놓는곳
+### JSX문법
+1. class 넣을때는 class = ” “ 이 아닌 className = ”  “ 로 작성한다
+2. 변수 넣을 땐(=데이터 바운딩할 때) {중괄호} 사용한다.
+   let post = " 강남 우동 맛집 " ; 
+document.querySelector('h4').innerHTML = post;
+<h4>{post}</h4>
