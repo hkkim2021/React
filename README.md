@@ -14,6 +14,10 @@
 ### JSX문법
 1. class 넣을때는 class = ” “ 이 아닌 className = ”  “ 로 작성한다
 2. 변수 넣을 땐(=데이터 바운딩할 때) {중괄호} 사용한다.
-   let post = " 강남 우동 맛집 " ; 
-document.querySelector('h4').innerHTML = post;
-<h4>{post}</h4>
+   let post = " 강남 우동 맛집 " ;
+
+   
+   document.querySelector('h4').innerHTML = post;
+
+   
+   <h4>{post}</h4>
